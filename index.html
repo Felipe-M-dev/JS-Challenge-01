@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Laptops Gamer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div id="img-product01">
+                <img src="assets/img/laptop.png" alt="">
+            </div>
+            <div id="title">Laptop Gamer AMD</div>
+            <div class="selector">
+                <input value="Cantidad" min="0" id="quantity-selector" onClick="clearValue()"/> <br>
+                <select id="userInputColor" onClick="geetingsColor()">
+                    <option value="none" selected disabled hidden>Color</option>
+                    <option value="yellow">Amarillo</option>
+                    <option value="blue">Azul</option>
+                    <option value="white">Blanco</option>
+                    <option value="brown">Café</option>
+                    <option value="gray">Gris</option>
+                    <option value="magenta">Magenta</option>
+                    <option value="orange">Naranjo</option>
+                    <option value="black">Negro</option>
+                    <option value="red">Rojo</option>
+                    <option value="pink">Rosa</option>
+                    <option value="violet">Violeta</option>
+                </select> <br>
+                <div class="price">Precio: 400000</div>
+            </div>
+            <div id="total-button">
+                <button id="calc-button" onClick="geetingsQuantity()"><p>Calcular Total</p></button>
+            </div>
+        </div>
+        <div class="quote">
+            <div id="total">Total: $0</div>
+            <div id="quantity">Cantidad: 0</div>
+            <div id="color-selected">Color:
+                <div class="color-circle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/js/scripts.js"></script>
+</html>

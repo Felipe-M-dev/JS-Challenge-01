@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.card {
+    background-color: #7ba238;
+    width: 300px;
+    border: solid;
+    border-color: #67784a;
+    border-radius: 0.5rem;
+}
+
+#img-product01, #title, #total-button {
+    text-align: center;
+}
+
+.card img {
+    width: 75%;
+    height: auto;
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+#title {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.price {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.quote {
+    font-size: 1.2rem;
+    margin: auto auto auto 2.5rem;
+}
+
+.selector {
+    margin: 0.5rem 0 0 2rem;
+}
+
+#color-selected {
+    display: flex;
+}
+
+.color-circle { 
+    width: 1rem;
+    height: 1rem;
+    border: solid black;
+    background: black; 
+    -moz-border-radius: 1rem; 
+    -webkit-border-radius: 1rem; 
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+ }
+
+#userInputColor, #quantity-selector {
+    border-radius: 0.2rem;
+    border: none;
+    font-size: 1rem;
+
+}
+
+#quantity-selector {
+    width: 206px;
+    padding: 4px 4px 4px 11px;
+    margin-bottom: 12px;
+    color: #8c7778;
+    border-radius: 0.4rem;
+}
+
+#userInputColor {
+    width: 222px;
+    padding: 4px 4px 4px 10px;
+    margin-bottom: 12px;
+    color: #8c7778;
+    border-radius: 0.4rem;
+}
+
+#calc-button {
+    background-color: #e2a325;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.6rem;
+    border-top: solid #7a7871;
+    border-left: solid #7a7871;
+    border-right: solid #212121;
+    border-bottom: solid #212121;
+    border-width: 0.2rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+#calc-button:hover {
+    background-color: #e2a325;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.6rem;
+    border-top: solid #212121;
+    border-left: solid #212121;
+    border-right: solid #7a7871;
+    border-bottom: solid #7a7871;
+    border-width: 0.2rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+#calc-button p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
