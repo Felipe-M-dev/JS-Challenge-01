@@ -16,6 +16,10 @@ body {
     border-radius: 0.5rem;
 }
 
+.quote {
+    width: 300px;
+}
+
 #img-product01, #title, #total-button {
     text-align: center;
 }
