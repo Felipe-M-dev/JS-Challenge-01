@@ -130,3 +130,15 @@ select {
     text-indent: 1px;
     text-overflow: '';
 }
+
+@media only screen and (max-width: 575px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .quote {
+        margin-top: 2rem;
+    }
+}
