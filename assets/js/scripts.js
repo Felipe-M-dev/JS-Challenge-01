@@ -56,6 +56,10 @@ function geetingsColor() {
         document.querySelector('.color-circle').style.background = "violet"
         document.querySelector('.color-circle').style.border = "solid violet"
     }
+    else if (colorSelected == "pink") {
+        document.querySelector('.color-circle').style.background = "pink"
+        document.querySelector('.color-circle').style.border = "solid pink"
+    }
 }
 
 function clearValue() {
