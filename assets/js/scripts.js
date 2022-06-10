@@ -8,7 +8,7 @@ function geetingsQuantity() {
         document.getElementById('quantity').innerText = "Cantidad: Inválida."
         return false
     } else {
-        document.getElementById('total').innerText = "Total: $" + finalPrice
+        document.getElementById('total').innerText = "Total: $" + finalPrice.toLocaleString('en-US').replaceAll(',', '.')
         document.getElementById('quantity-selector').value = "Cantidad"
         document.getElementById('quantity').innerText = "Cantidad: " + quantityNumber
     }
